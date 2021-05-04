@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+
+.banner-piced {
+  background-image: url(../img/home_banner.svg);
+  background-size: cover;
+  height: 140vh;
+  background-repeat: no-repeat;
+}
+.banner-piced .nav-link {
+  color: #fff;
+}
+
+@media (min-width: 991px) {
+  .banner-container {
+    padding-top: 200px;
+    max-width: 80%;
+  }
+}
+
+.text-shadow-primary {
+  background: #001aff;
+  background: -webkit-linear-gradient(to top, #001aff 0%, #00a3ff 100%);
+  background: -moz-linear-gradient(to top, #001aff 0%, #00a3ff 100%);
+  background: linear-gradient(to top, #001aff 0%, #00a3ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mw-750 {
+  max-width: 750px;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.font-36 {
+  font-size: 36px;
+}
+
+.font-30 {
+  font-size: 30px;
+}
+
+.font-32 {
+  font-size: 2rem;
+}
+
+.font-24 {
+  font-size: 1.5rem;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-16 {
+  font-size: 1rem;
+}
+
+.btn-primary.btn-custom {
+  background-color: #2797ff;
+  font-size: 26px;
+  font-family: "Rubik", sans-serif;
+  padding: 12px 40px;
+}
+
+.card-grid img {
+  height: 400px;
+}
+.card-grid h6 {
+  text-align: center;
+  font-size: 1.75rem;
+  font-family: "Rubik", sans-serif;
+  background: #000aff;
+  background: -webkit-linear-gradient(to top, #000aff 0%, #00a3ff 50%, #000aff 100%);
+  background: -moz-linear-gradient(to top, #000aff 0%, #00a3ff 50%, #000aff 100%);
+  background: linear-gradient(to top, #000aff 0%, #00a3ff 50%, #000aff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.custom-carousel .carousel-indicators {
+  position: relative;
+}
+.custom-carousel .carousel-indicators button {
+  background: #edf2ff;
+  height: 50px;
+  text-align: center;
+  transform: rotate(45deg);
+  width: 50px;
+  border: none;
+  margin: 20px;
+  -webkit-appearance: none;
+  outline: none;
+  color: #0a1361;
+  font-size: 25px;
+}
+.custom-carousel .carousel-indicators button.active {
+  background-color: #3b4ac7;
+  color: #fff;
+}
+.custom-carousel .carousel-indicators button span {
+  display: inline-block;
+  transform: rotate(-45deg);
+}
+
+.carbon-chem {
+  background-image: url(../img/carbon_chemistry.svg);
+  display: inline-block;
+  width: 59px;
+  height: 82px;
+  position: absolute;
+  top: -113px;
+}
+
+.circle {
+  background-image: url(../img/circle.svg);
+  display: inline-block;
+  width: 59px;
+  height: 58px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.about-us {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .about-us {
+    padding-top: 300px;
+    min-height: 847px;
+  }
+}
+.about-us p {
+  color: #656363;
+  font-size: 20px;
+}
+.about-us img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .about-us img {
+    object-fit: cover;
+    height: 100%;
+  }
+}
+
+.text-orange {
+  color: #f3770d;
+}
+
+.testimonial-carousel {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.testimonial-carousel .testimonial-section {
+  background: url(../img/testimonial-circle.png) no-repeat;
+}
+.testimonial-carousel .carousel-indicators {
+  margin-top: 50px;
+}
+.testimonial-carousel .carousel-indicators button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: none;
+  background-color: #cbebff;
+  margin: 0 10px;
+  outline: none;
+  font-size: 18px;
+}
+.testimonial-carousel .carousel-indicators button.active {
+  background-color: #32b1ff;
+  color: #fff;
+}
+
+.testimonial-banner {
+  background: url(../img/testimonial-img-r.png) center;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.testimonial-banner p {
+  color: #696969;
+  width: 270px;
+}
+
+.square-line {
+  background-image: url(../img/square-line.svg);
+  display: block;
+  width: 46px;
+  height: 54px;
+}
+
+.testimonial-section {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.faq {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: linear-gradient(179.19deg, #fef2ae 0.69%, rgba(251, 244, 204, 0) 178.38%);
+}
+@media (min-width: 991px) {
+  .faq {
+    background: url(../img/faq.svg) no-repeat;
+    background-size: cover;
+  }
+}
+.faq h1 {
+  color: #625c38;
+}
+
+.accordion-custom .accordion-item {
+  border-radius: 30px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.accordion-custom .accordion-item .accordion-button:not(.collapsed)::before {
+  transform: rotate(90deg);
+}
+.accordion-custom .accordion-item button {
+  border: none;
+  display: block;
+  font-size: 24px;
+  width: 100%;
+  text-align: left;
+  background-color: transparent;
+}
+.accordion-custom .accordion-item button:focus {
+  outline: none;
+}
+.accordion-custom .accordion-item button:before {
+  content: "";
+  background: url(../img/arrow.svg) no-repeat;
+  background-position: center;
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  margin-right: 20px;
+}
+.accordion-custom .accordion-item .accordion-body {
+  margin-top: 30px;
+  color: #b8b8b8;
+  font-size: 24px;
+  margin-left: 55px;
+}
+.accordion-custom h2 {
+  margin: 0;
+}
+
+.contact-us {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.contact-us h1 {
+  color: #505459;
+}
+.contact-us h2 {
+  color: #7c7c7c;
+}
+
+.input-group-primary {
+  background-color: #0099ff;
+  color: #fff;
+  border-radius: 0 0.25rem 0.25rem 0;
+  border: none;
+}
+
+footer {
+  background-image: url(../img/footer.svg);
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+footer h4 {
+  font-weight: 700;
+}
+
+.ratio {
+  position: relative;
+  width: 100%;
+}
+.ratio::before {
+  display: block;
+  padding-top: var(--bs-aspect-ratio);
+  content: "";
+}
+.ratio > * {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ratio-1x1 {
+  --bs-aspect-ratio: calc(10 / 16 * 100%);
+}
+
+/*# sourceMappingURL=main.css.map */

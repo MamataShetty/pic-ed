@@ -13,7 +13,7 @@ h2 {
 .banner-piced {
   background-image: url(../img/home_banner.svg);
   background-size: cover;
-  height: 140vh;
+  height: 150vh;
   background-repeat: no-repeat;
 }
 .banner-piced .nav-link {
@@ -136,13 +136,15 @@ h2 {
 
 .about-us {
   padding-top: 100px;
+  background: linear-gradient(339.51deg, #bbceff 34.72%, rgba(237, 242, 255, 0) 95.93%);
   padding-bottom: 100px;
   position: relative;
 }
-@media (min-width: 768px) {
+@media (min-width: 991px) {
   .about-us {
     padding-top: 300px;
     min-height: 847px;
+    background: none;
   }
 }
 .about-us p {
@@ -153,11 +155,13 @@ h2 {
   position: absolute;
   top: 0;
   width: 100%;
+  height: 100%;
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   .about-us img {
     object-fit: cover;
     height: 100%;
+    display: none;
   }
 }
 
@@ -296,6 +300,14 @@ footer {
 }
 footer h4 {
   font-weight: 700;
+}
+
+.banner-bubble {
+  background: url(../img/banner_bubble.svg) no-repeat;
+  background-size: contain;
+  padding-left: 90px;
+  padding-right: 91px;
+  padding-bottom: 58px;
 }
 
 .ratio {

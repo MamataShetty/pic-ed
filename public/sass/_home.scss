@@ -15,7 +15,7 @@ h2 {
 .banner-piced {
   background-image: url(../img/home_banner.svg);
   background-size: cover;
-  height: 140vh;
+  height: 150vh;
   background-repeat: no-repeat;
   // padding-bottom: 340px;
   .nav-link {
@@ -141,9 +141,15 @@ h2 {
   // background-image: url(../img/about-us.svg);
   // background-position: center;
   padding-top: 100px;
-  @media (min-width: 768px) {
+  background: linear-gradient(
+    339.51deg,
+    #bbceff 34.72%,
+    rgba(237, 242, 255, 0) 95.93%
+  );
+  @media (min-width: 991px) {
     padding-top: 300px;
     min-height: 847px;
+    background: none;
   }
   padding-bottom: 100px;
   position: relative;
@@ -155,9 +161,11 @@ h2 {
     position: absolute;
     top: 0;
     width: 100%;
-    @media (max-width: 768px) {
+    height: 100%;
+    @media (max-width: 991px) {
       object-fit: cover;
       height: 100%;
+      display: none;
     }
   }
 }
@@ -293,4 +301,11 @@ footer {
   h4 {
     font-weight: 700;
   }
+}
+.banner-bubble {
+  background: url(../img/banner_bubble.svg) no-repeat;
+  background-size: contain;
+  padding-left: 90px;
+  padding-right: 91px;
+  padding-bottom: 58px;
 }

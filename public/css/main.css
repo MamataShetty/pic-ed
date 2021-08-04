@@ -16,7 +16,7 @@ h2 {
   height: 150vh;
   background-repeat: no-repeat;
 }
-.banner-piced .nav-link {
+.banner-piced .navbar-dark .navbar-nav .nav-link {
   color: #fff;
 }
 
@@ -28,12 +28,7 @@ h2 {
 }
 
 .text-shadow-primary {
-  background: #001aff;
-  background: -webkit-linear-gradient(to top, #001aff 0%, #00a3ff 100%);
-  background: -moz-linear-gradient(to top, #001aff 0%, #00a3ff 100%);
-  background: linear-gradient(to top, #001aff 0%, #00a3ff 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #00a2b1;
 }
 
 .mw-750 {
@@ -69,10 +64,15 @@ h2 {
 }
 
 .btn-primary.btn-custom {
-  background-color: #2797ff;
+  background-color: white;
   font-size: 26px;
   font-family: "Rubik", sans-serif;
   padding: 12px 40px;
+  color: #00a2b1;
+}
+
+.text-primary {
+  color: #00a2b1;
 }
 
 .card-grid img {
@@ -82,37 +82,31 @@ h2 {
   text-align: center;
   font-size: 1.75rem;
   font-family: "Rubik", sans-serif;
-  background: #000aff;
-  background: -webkit-linear-gradient(to top, #000aff 0%, #00a3ff 50%, #000aff 100%);
-  background: -moz-linear-gradient(to top, #000aff 0%, #00a3ff 50%, #000aff 100%);
-  background: linear-gradient(to top, #000aff 0%, #00a3ff 50%, #000aff 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #00a2b1;
 }
 
 .custom-carousel .carousel-indicators {
   position: relative;
 }
 .custom-carousel .carousel-indicators button {
-  background: #edf2ff;
+  background: url(../img/indicator.svg);
   height: 50px;
   text-align: center;
-  transform: rotate(45deg);
-  width: 50px;
+  width: 58px;
   border: none;
-  margin: 20px;
+  margin: 40px 10px;
   -webkit-appearance: none;
   outline: none;
   color: #0a1361;
   font-size: 25px;
 }
 .custom-carousel .carousel-indicators button.active {
-  background-color: #3b4ac7;
+  background: url(../img/indicator-active.svg);
   color: #fff;
 }
 .custom-carousel .carousel-indicators button span {
   display: inline-block;
-  transform: rotate(-45deg);
+  font-weight: 600;
 }
 
 .carbon-chem {
@@ -136,7 +130,7 @@ h2 {
 
 .about-us {
   padding-top: 100px;
-  background: linear-gradient(339.51deg, #bbceff 34.72%, rgba(237, 242, 255, 0) 95.93%);
+  background: #95419a;
   padding-bottom: 100px;
   position: relative;
 }
@@ -144,12 +138,12 @@ h2 {
   .about-us {
     padding-top: 300px;
     min-height: 847px;
-    background-image: url(../img/about-us.svg);
+    background: url(../img/about-us-banner.svg);
     background-size: cover;
   }
 }
 .about-us p {
-  color: #656363;
+  color: #fff;
   font-size: 20px;
 }
 
@@ -183,7 +177,7 @@ h2 {
 }
 
 .testimonial-banner {
-  background: url(../img/testimonial-img-r.png) center;
+  background: url(../img/testimonial-img-r.svg) center;
   min-height: 500px;
   display: flex;
   align-items: center;
@@ -192,7 +186,6 @@ h2 {
   text-align: center;
 }
 .testimonial-banner p {
-  color: #696969;
   width: 270px;
 }
 

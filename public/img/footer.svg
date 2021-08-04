@@ -3,13 +3,6 @@
 <rect width="1440" height="365" fill="#C4C4C4"/>
 </mask>
 <g mask="url(#mask0)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M-5 0L84.8917 20.2778C173.442 40.5556 353.225 81.1111 531.667 87.8704C710.108 94.6296 889.892 67.5926 1068.33 94.6296C1246.78 121.667 1426.56 202.778 1515.11 243.333L1605 283.889V365H1515.11C1426.56 365 1246.78 365 1068.33 365C889.892 365 710.108 365 531.667 365C353.225 365 173.442 365 84.8917 365H-5V0Z" fill="url(#paint0_linear)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M-5 0L84.8917 20.2778C173.442 40.5556 353.225 81.1111 531.667 87.8704C710.108 94.6296 889.892 67.5926 1068.33 94.6296C1246.78 121.667 1426.56 202.778 1515.11 243.333L1605 283.889V365H1515.11C1426.56 365 1246.78 365 1068.33 365C889.892 365 710.108 365 531.667 365C353.225 365 173.442 365 84.8917 365H-5V0Z" fill="#00A2B1"/>
 </g>
-<defs>
-<linearGradient id="paint0_linear" x1="548.438" y1="341.343" x2="2436.84" y2="-73.8936" gradientUnits="userSpaceOnUse">
-<stop offset="0.0158521" stop-color="#038AE3"/>
-<stop offset="0.352979" stop-color="#0099FF" stop-opacity="0.647021"/>
-<stop offset="1" stop-color="#0099FF" stop-opacity="0"/>
-</linearGradient>
-</defs>
 </svg>
